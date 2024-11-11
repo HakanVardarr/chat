@@ -1,0 +1,13 @@
+[package]
+name = "chat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+colog = "1.3.0"
+colored = "2.1.0"
+human_id = "0.1.0"
+log = "0.4.22"
+thiserror = "2.0.3"
+tokio = { version = "1.41.1", features = ["full"] }
